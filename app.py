@@ -83,7 +83,6 @@ def get_player_coins():
     player1.aumentar_moedas(moedinhas)
     return jsonify({"Moedas do jogador": f"{player1.nome} = {player1.moeda}$"}), 200
 
-# ... Aqui você pode adicionar mais rotas para as outras operações ...
 
 
 if __name__ == '__main__':
